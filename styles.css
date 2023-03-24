@@ -1,0 +1,42 @@
+.title {
+    color: #808080;
+    text-align: center;
+    font-weight:lighter;
+    font-family: "Open Sans", "PT Sans", Calibri;
+}
+
+.recipe {
+    font-family: "Open Sans", "PT Sans", Calibri;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p,
+li,
+h2 {
+    font-family: "Open Sans";
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.directory {
+    font-size: 14pt;
+}
+
+.links-list a{
+    background-color: rgb(179,57,81);
+    color: #ffffff;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.links-list a:hover {
+    background-color: rgb(66,28,40);
+    color: #ffffff;
+}
