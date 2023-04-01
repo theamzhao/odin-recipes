@@ -6,8 +6,8 @@ body {
 .header {
     display: flex;
     align-items: center;
-    flex: 0 0 auto;
-    min-height: 80px;
+    flex: 0;
+    min-height: 40px;
     background-color: #eee;
     color: #000;
     font-weight:lighter;
@@ -21,10 +21,6 @@ body {
     width: 12%;
 }
 
-.recipe {
-    font-family: "Open Sans", "PT Sans", Calibri;
-}
-
 p,
 li,
 h2,
@@ -35,8 +31,14 @@ a,
     margin-right: 5%;
 }
 
-.directory {
-    font-size: 14pt;
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container {
+    flex: 1;
+
 }
 
 .cards a{
@@ -50,4 +52,22 @@ a,
 .cards a:hover {
     background-color: rgb(57, 53, 54);
     color: #ffffff;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+ul {
+    list-style: none;
+    gap: 8px;
+    font-size: 14pt;
+
+}
+
+
+.recipe {
+    font-family: "Open Sans", "PT Sans", Calibri;
 }
