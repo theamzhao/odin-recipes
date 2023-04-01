@@ -1,25 +1,35 @@
-.title {
-    color: #808080;
-    text-align: center;
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    min-height: 80px;
+    background-color: #eee;
+    color: #000;
     font-weight:lighter;
     font-family: "Open Sans", "PT Sans", Calibri;
+    padding-left: 8px;
+    margin: 0px
+}
+
+.img {
+    margin: 16px;
+    width: 12%;
 }
 
 .recipe {
     font-family: "Open Sans", "PT Sans", Calibri;
 }
 
-.img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 p,
 li,
 h2,
-a {
+a,
+.footer {
     font-family: "Open Sans";
     margin-left: 5%;
     margin-right: 5%;
@@ -29,7 +39,7 @@ a {
     font-size: 14pt;
 }
 
-.links-list a{
+.cards a{
     background-color: rgb(140, 130, 132);
     color: #ffffff;
     padding: 1em 2em;
@@ -37,7 +47,7 @@ a {
     display: inline-block;
 }
 
-.links-list a:hover {
+.cards a:hover {
     background-color: rgb(57, 53, 54);
     color: #ffffff;
 }
